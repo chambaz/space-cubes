@@ -222,7 +222,10 @@ export default function Home() {
                 </a>
                 . <br />
                 See the collection on{' '}
-                <a href="#" target="_blank" rel="noreferrer">
+                <a
+                  href="https://opensea.io/collection/space-cubes-nft"
+                  target="_blank"
+                  rel="noreferrer">
                   OpenSea
                 </a>
                 .
