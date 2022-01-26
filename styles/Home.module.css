@@ -134,7 +134,14 @@
 }
 
 .description a {
+  border-bottom: solid 1px transparent;
+  padding-bottom: 2px;
   color: rgb(184, 124, 197);
+  transition: 0.3s;
+}
+
+.description a:hover {
+  border-color: rgb(184, 124, 197);
 }
 
 .canvasContainer {
@@ -263,6 +270,17 @@
 
 .copyBlock strong {
   color: #bb5098;
+}
+
+.copyBlock a {
+  border-bottom: solid 1px transparent;
+  padding-bottom: 2px;
+  color: rgb(184, 124, 197);
+  transition: 0.3s;
+}
+
+.copyBlock a:hover {
+  border-color: rgb(184, 124, 197);
 }
 
 .copyBlock img {
