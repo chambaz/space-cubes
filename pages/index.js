@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { ethers } from 'ethers'
 import Script from 'next/script'
 import Head from 'next/head'
+import Img from 'next/image'
 import { throttle } from 'lodash'
 import SpaceCubes from '../public/artifacts/SpaceCubes.json'
 import styles from '../styles/Home.module.css'
@@ -389,9 +390,11 @@ export default function Home() {
                   Polygon Bridge.
                 </p>
 
-                <img
+                <Img
                   src="/img/polygon-bridge.png"
                   alt="Bridge ETH to Polygon"
+                  width={547}
+                  height={561}
                 />
               </div>
               <div className={styles.copyBlockSection}>
