@@ -402,8 +402,8 @@ export default function Home() {
                   Mint &amp; View Your Assets!
                 </h3>
                 <p>
-                  You are ready to mint Space Cubes. Make sure you&pos;re on the
-                  Polygon network and click mint. Good luck!
+                  You are ready to mint Space Cubes. Make sure you&apos;re on
+                  the Polygon network and click mint. Good luck!
                 </p>
               </div>
             </div>
