@@ -385,9 +385,22 @@ export default function Home() {
                 <p>
                   First things first, you need to get hold of some MATIC. You
                   can either purchase from an exchange like Coinbase, or swap
-                  another token on Uniswap. Once you have MATIC in your wallet
-                  you can bridge the assets onto the Polygon network using the
-                  Polygon Bridge.
+                  another token on{' '}
+                  <a
+                    href="https://uniswap.org/"
+                    target="_blank"
+                    rel="noreferrer">
+                    Uniswap
+                  </a>
+                  . Once you have MATIC in your wallet you can bridge the assets
+                  onto the Polygon network using the{' '}
+                  <a
+                    href="https://wallet.polygon.technology/bridge/"
+                    target="_blank"
+                    rel="noreferrer">
+                    Polygon Bridge
+                  </a>
+                  .
                 </p>
 
                 <Img
