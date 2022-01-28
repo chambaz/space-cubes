@@ -111,11 +111,26 @@
 
 .subTitle {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 38px;
   line-height: 1.25;
   margin: 0 0 30px;
+}
+
+.subTitle svg {
+  margin: 20px 0 0 10px;
+}
+
+@media (min-width: 768px) {
+  .subTitle {
+    flex-direction: row;
+  }
+
+  .subTitle svg {
+    margin: 0 0 0 10px;
+  }
 }
 
 .description {
