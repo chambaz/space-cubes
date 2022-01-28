@@ -221,12 +221,12 @@ export default function Home() {
                   chambaz.eth
                 </a>
                 . <br />
-                See the collection on{' '}
+                Mint a cube below or view the{' '}
                 <a
                   href="https://opensea.io/collection/space-cubes-nft"
                   target="_blank"
                   rel="noreferrer">
-                  OpenSea
+                  collection on OpenSea
                 </a>
                 .
               </p>
