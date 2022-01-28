@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { ethers } from 'ethers'
 import Script from 'next/script'
 import Head from 'next/head'
+import Img from 'next/image'
 import { throttle } from 'lodash'
 import SpaceCubes from '../public/artifacts/SpaceCubes.json'
 import styles from '../styles/Home.module.css'
@@ -220,9 +221,12 @@ export default function Home() {
                   chambaz.eth
                 </a>
                 . <br />
-                See the collection on{' '}
-                <a href="#" target="_blank" rel="noreferrer">
-                  OpenSea
+                Mint a cube below or view the{' '}
+                <a
+                  href="https://opensea.io/collection/space-cubes-nft"
+                  target="_blank"
+                  rel="noreferrer">
+                  collection on OpenSea
                 </a>
                 .
               </p>
@@ -384,14 +388,29 @@ export default function Home() {
                 <p>
                   First things first, you need to get hold of some MATIC. You
                   can either purchase from an exchange like Coinbase, or swap
-                  another token on Uniswap. Once you have MATIC in your wallet
-                  you can bridge the assets onto the Polygon network using the
-                  Polygon Bridge.
+                  another token on{' '}
+                  <a
+                    href="https://uniswap.org/"
+                    target="_blank"
+                    rel="noreferrer">
+                    Uniswap
+                  </a>
+                  . Once you have MATIC in your wallet you can bridge the assets
+                  onto the Polygon network using the{' '}
+                  <a
+                    href="https://wallet.polygon.technology/bridge/"
+                    target="_blank"
+                    rel="noreferrer">
+                    Polygon Bridge
+                  </a>
+                  .
                 </p>
 
-                <img
+                <Img
                   src="/img/polygon-bridge.png"
                   alt="Bridge ETH to Polygon"
+                  width={547}
+                  height={561}
                 />
               </div>
               <div className={styles.copyBlockSection}>
@@ -399,8 +418,8 @@ export default function Home() {
                   Mint &amp; View Your Assets!
                 </h3>
                 <p>
-                  You are ready to mint Space Cubes. Make sure you're on the
-                  Polygon network and click mint. Good luck!
+                  You are ready to mint Space Cubes. Make sure you&apos;re on
+                  the Polygon network and click mint. Good luck!
                 </p>
               </div>
             </div>
