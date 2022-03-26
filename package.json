@@ -1,6 +1,6 @@
 {
   "name": "space-cubes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of 999 interactive NFTs, created by chambaz.eth",
   "main": "index.js",
   "scripts": {

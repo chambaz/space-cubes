@@ -183,6 +183,8 @@ export default function Home() {
           property="og:image"
           content="https://www.spacecubes.xyz/spacecubes.jpg"
         />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:creator" content="@chambaz" />
       </Head>
 
       <canvas className={styles.bg} id="bg"></canvas>
